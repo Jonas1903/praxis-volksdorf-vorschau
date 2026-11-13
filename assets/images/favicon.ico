@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta charset="utf-8" />
+<title>Allgemeinmedizin Volksdorf</title>
+<link href="/images/favicon.ico" rel="shortcut icon" />
+<meta name="keywords"
+	content="Hausarzt, Allgemeinmedizin, Volksdorf, Ultraschall, Psychosomatik, Praxis" />
+<meta name="description"
+	content="Hausarzt in Volksdorf, Allgemeinmedizin, Ultraschall, Psychosomatik, Praxis" />
+	<meta name="page-topic"
+	content="hausarzt,allgemeinmedizin,volksdorf,ultraschall,psychosomatik,praxis" />
+
+<meta http-equiv="content-language" content="deutsch, de" />
+
+<meta name="audience" content="Alle" />
+<meta name="author" content="www.allgemeinmedizin-volksdorf.de" />
+<meta name="publisher" content="www.allgemeinmedizin-volksdorf.de" />
+<meta name="copyright" content="www.allgemeinmedizin-volksdorf.de" />
+<meta name="robots" content="INDEX,FOLLOW" />
+
+<meta name="viewport"
+	content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+<link rel="stylesheet" href="styles/page.css" />
+
+<link rel="stylesheet" href="styles/leaflet.css" />
+<script src="js/leaflet.js"></script>
+
+
+<link rel="stylesheet"
+	href="js/jquery_mobile/jquery.mobile-1.4.5.min.css" />
+<link rel="stylesheet" href="js/jquery_mobile/basic.css" />
+<script src="js/jquery_mobile/jquery-1.11.1.min.js"></script>
+<script src="js/jquery_mobile/jquery.mobile-1.4.5.min.js"></script>
+
+
+
+
+
+
+
+</head>
+<body>
+	<script>
+		$(document).bind("mobileinit", function() {
+			$.mobile.ajaxEnabled = false;
+		});
+	</script>
+
+<script>
+				$("#tabs").tabs({
+					collapsible : true,
+					show : true,
+					hide : true
+				});
+			</script>
+
+
+
+	<div data-role="page" id="mypage" data-theme="a"
+		data-title="Allgemeinmedizin Volksdorf">
+
+		<div data-role="header" data-theme="a">
+			<div style="font-size: 20px; padding: 10px; margin-left: 100px;">
+				<i class="fa fa-heartbeat " title="Anruf" aria-hidden="true"></i> Hausarztpraxis <br /> Dr. med. Anne Freier <br /> Fach&auml;rztin
+				f&uuml;r Allgemeinmedizin
+			</div>
+			<div style="font-size: 14px; padding: 10px;margin-left:100px;">Hausärztliche
+				Versorgung &#8226; Manuelle Medizin &#8226; Psychosomatik &#8226;
+				Ultraschall</div>
+				
+			
+			
+			<a href="#navmenu" id="bars-button" title="Öffne Menu"				
+				class="ui-btn ui-btn-active my_btn"
+				href="#navpanel"
+				style="margin-top: 25px; -webkit-border-radius: 4em; border-radius: 4em;">
+				<i class="fa fa-navicon fa-4x fa-pull-left icon_orange" title="Menu" aria-hidden="true" ></i>
+				</a>
+				
+			<a id="call_btn" href="tel:00494064504672"  title="Anruf"				
+				class=" ui-btn ui-btn-active my_btn" 
+				style="margin-top: 25px; -webkit-border-radius: 4em; border-radius: 4em;vertical-align: middle;">
+					<i class="fa fa-phone fa-4x fa-pull-right icon_orange" title="Anruf" aria-hidden="true"></i>
+				
+			</a>
+			
+		</div>
+
+
+		<div data-role="content">
+
+			<h4>Seite leider nicht gefunden. <a href="index.html">Hier geht es zurück zur Praxis ...</a> </h4>
+						
+		</div>
+
+<div id="navmenu" class="jqm-navmenu-panel" data-role="panel" data-position="left" data-display="overlay"
+			data-theme="a">
+
+			<ul data-role="listview" data-ajax="false" data-insets="false">
+				<li data-filtertext="Willkommen" data-icon="home"><a
+					href="index.html" rel="external">Willkommen</a></li>
+				<li data-icon="navigation"><a
+					href="anfahrt.html" rel="external">Ihr Weg zu uns</a></li>
+				<li data-icon="user"><a
+					href="annefreier.html" rel="external">Dr. med. Anne Freier</a></li>
+				<li data-icon="camera"><a href="praxis.html" rel="external">Unsere
+						Praxis</a></li>
+				<li data-icon="shop"><a
+					href="leistungen.html" rel="external">Leistungen &amp; Angebote</a></li>
+				
+				<li data-icon="info"><a href="impressum.html" rel="external">Impressum</a></li>
+			</ul>
+
+		</div>
+	</div>
+
+
+
+
+</body>
+</html>
